@@ -17,4 +17,7 @@ export default {
 </script>
     MainTabBar
 
-<style></style>
+<style>
+@import "assets/css/base.css";
+@import "assets/css/public.css";
+</style>

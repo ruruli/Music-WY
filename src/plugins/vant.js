@@ -1,6 +1,8 @@
 import Vue from 'vue'
-import { Button, Icon } from 'vant'
+import { Button, Icon ,Badge} from 'vant'
 
-Vue.use(Button).use(Icon)
+Vue.use(Button);
+Vue.use(Icon);
+Vue.use(Badge);
 
 
