@@ -25,7 +25,7 @@
         <van-icon name="arrow" size="20" />
       </div>
     </div>
-    <!-- 功能快 -->
+    <!-- 功能块 -->
     <div class="domain flex">
       <div v-for="item in 8" class="domain-item flex_c">
         <img src="./imgs/local.png" alt="" />
