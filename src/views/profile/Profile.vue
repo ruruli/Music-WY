@@ -29,7 +29,7 @@
     <div class="domain flex">
       <div v-for="item in 8" class="domain-item flex_c">
         <img src="./imgs/local.png" alt="" />
-        <p>本地/下载</p>
+        <p>本地</p>
       </div>
     </div>
     <!-- 我喜欢的 -->
