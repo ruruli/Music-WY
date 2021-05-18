@@ -15,7 +15,7 @@
         <img src="~assets/img/me.jpg" alt="头像" />
       </div>
       <div class="txt-box">
-        <p>茹茹lili</p>
+        <p>茹茹lili1</p>
         <p class="flex">
           <img src="~assets/img/vip.png" alt="vip开通" />
           <span> Lv.9 </span>
