@@ -15,7 +15,7 @@
         <img src="~assets/img/me.jpg" alt="头像" />
       </div>
       <div class="txt-box">
-        <p>茹茹lili1</p>
+        <p>茹茹</p>
         <p class="flex">
           <img src="~assets/img/vip.png" alt="vip开通" />
           <span> Lv.9 </span>
@@ -29,7 +29,7 @@
     <div class="domain flex">
       <div v-for="item in 8" class="domain-item flex_c">
         <img src="./imgs/local.png" alt="" />
-        <p>本地</p>
+        <p>本地/下载</p>
       </div>
     </div>
     <!-- 我喜欢的 -->
@@ -59,6 +59,7 @@
         <p>创建歌单</p>
         <p style="color: #d8d8d8">｜</p>
         <p class="tip">收藏歌单</p>
+        <p style="color: #d8d8d8">｜</p>
         <div class="s-mask"></div>
         <p>歌单助手</p>
       </div>
