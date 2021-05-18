@@ -27,7 +27,7 @@
     </div>
     <!-- 功能快 -->
     <div class="domain flex">
-      <div v-for="item in 1" class="domain-item flex_c">
+      <div v-for="item in 8" class="domain-item flex_c">
         <img src="./imgs/local.png" alt="" />
         <p>本地/下载</p>
       </div>
@@ -58,8 +58,9 @@
       <div class="s-title flex">
         <p>创建歌单</p>
         <p style="color: #d8d8d8">｜</p>
-        <p>收藏歌单</p>
+        <p class="tip">收藏歌单</p>
         <div class="s-mask"></div>
+        <p>歌单助手</p>
       </div>
       <div></div>
     </div>
