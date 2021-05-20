@@ -1,5 +1,5 @@
 <template>
-  <div id="profile">
+  <div id="profile" class="flex_c">
     <nav-bar>
       <div slot="left">
         <div class="mybadge">
@@ -55,7 +55,8 @@
     </div>
     <!-- 歌单 -->
     <div class="song_sheet">
-      <div class="s-title flex">
+      <!-- 自定义 -->
+      <!-- <div class="s-title flex">
         <p>创建歌单</p>
         <p style="color: #d8d8d8">｜</p>
         <p class="tip">收藏歌单</p>
@@ -63,7 +64,33 @@
         <div class="s-mask"></div>
         <p>歌单助手</p>
       </div>
-      <div></div>
+      <div></div> -->
+      <!-- 标签页 -->
+      <van-tabs v-model="tab_active">
+        <van-tab title="标签 1">
+          <p>jj</p>
+          <p>jj</p>
+          <p>jjj</p>
+          <p>jjj</p>
+          <p>jjj</p>
+          <p>jjj</p>
+          <p>jjj</p>
+          <p>jj</p>
+          <p>j</p>
+          <p>j</p>
+          <p>j</p>
+          <p>j</p>
+          <p>j</p>
+          <p>jj</p>
+          <p>j</p>
+          <p>j</p>
+          <p>j</p>
+          <p>j</p>
+          <p>jjj jjj jjj</p>
+        </van-tab>
+        <van-tab title="标签 2">内容 2</van-tab>
+        <van-tab title="标签 3">内容 3</van-tab>
+      </van-tabs>
     </div>
   </div>
 </template>
@@ -72,9 +99,14 @@ import NavBar from "../../components/common/navbar/NavBar.vue";
 export default {
   components: { NavBar },
   name: "Profile",
+  data() {
+    return {
+      tab_active: 0,
+    };
+  },
 };
 </script>
-<style scoped lang="less">
+<style lang="less">
 #profile {
   background-color: #f2f2f2;
   height: 100vh;
@@ -200,9 +232,19 @@ export default {
 }
 .song_sheet {
   font-size: 18px;
+  flex: 1;
+  overflow: hidden;
   color: #4a4a4a;
   .s-title {
     justify-content: space-evenly;
   }
+}
+// vantUi重写
+.van-tabs__nav {
+  background-color: transparent;
+}
+.van-tabs__content {
+  height: 100%;
+  background-color: #eaeaea;
 }
 </style>
